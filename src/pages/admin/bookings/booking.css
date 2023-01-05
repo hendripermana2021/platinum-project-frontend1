@@ -1,0 +1,23 @@
+.bookingAdmin {
+  display: flex;
+}
+.bookingAdmin .bookingAdminContainer {
+  flex: 6;
+}
+
+.content h2{
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px;
+}
+
+.content .span-kecil{
+  font-size: 10px;
+  font-weight: 600;
+  color: grey;
+}
+
+.content p {
+  font-size: 15px;
+}

@@ -1,0 +1,11 @@
+.part3-booking {
+  box-sizing: border-box;
+  height: 80px;
+  width: 697px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 22px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+}

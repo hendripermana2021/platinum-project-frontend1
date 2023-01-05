@@ -1,0 +1,20 @@
+.choose {
+  background-color: #f9fcfc;
+}
+
+.choose h1 {
+  color: #232323;
+  font-weight: 700 !important;
+}
+
+.choose p {
+  color: #879fb0;
+}
+
+.choose img {
+  margin-left: 50px;
+}
+
+.cl-blue {
+  color: #0f52ba !important;
+}

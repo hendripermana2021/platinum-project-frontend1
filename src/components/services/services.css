@@ -1,0 +1,17 @@
+/* Our Service */
+.slides-part {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.desc-slides {
+  text-align: center;
+}
+
+.desc-slides h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+/* End of Our Service */

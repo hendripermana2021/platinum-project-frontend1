@@ -1,0 +1,31 @@
+/* booking data Step 1 */
+.booking .container.card {
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container.booking .container.card {
+  border: none;
+}
+
+@media (max-width: 400px) {
+  /* step 1 */
+  .booking .container .steep {
+    margin-left: -20px;
+  }
+
+  .booking .container .sleep {
+    margin-left: -20px;
+  }
+
+  .booking .container .slaap {
+    margin-left: -20px;
+  }
+}
+
+/* .booking .container.card .card-header{
+  background-color: #fff;
+} */
+
+/* end Steep 1 */

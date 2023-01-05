@@ -1,0 +1,61 @@
+/* Promotion Banner */
+#promotion {
+  background: #e4e1e1;
+}
+
+.desc-pr {
+  padding: 100px 0px 0px 50px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0a1531;
+}
+
+.desc-pr p span {
+  color: #2663ff;
+}
+
+.flit-tagline {
+  width: 352px;
+  height: 63.77px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0a1531;
+  opacity: 0.5;
+}
+
+@media (max-width: 400px) {
+  .desc-pr {
+    padding: 10px 0px 0px 0px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0a1531;
+  }
+
+  .desc-pr p {
+    padding-left: 8%;
+    font-size: 20px;
+    position: center;
+  }
+
+  .desc-pr span {
+    color: #2663ff;
+  }
+
+  .btn-tagline {
+    padding-left: 8%;
+  }
+
+  .best-deal h1 {
+    font-size: 20px;
+  }
+
+  .best-deal p {
+    font-size: 13px;
+  }
+}
+/* end of promotion banner */

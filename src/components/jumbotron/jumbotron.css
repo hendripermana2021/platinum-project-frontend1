@@ -1,0 +1,46 @@
+/* ===== Jumbotron =====*/
+
+/* .jumbotron.background-image {
+  background-image: url("../../public/assets/landing/pesawat.svg");
+  width: 40%;
+} */
+
+.jumbotron p {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 150px;
+  color: #0a1531;
+  margin-top: -20%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 400px) {
+  .jumbotron.background-image {
+    width: 100%;
+    height: auto;
+  }
+  .jumbotron p {
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: -33%;
+    margin-bottom: 0%;
+  }
+}
+
+/* Responsive Jumbotron */
+@media (min-width: 768px) {
+  .jumbotron.background-image {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .jumbotron.background-image {
+    width: 100%;
+    height: auto;
+  }
+  .footer .info-footer {
+    padding: 0 6rem 3rem;
+  }
+}
+/* ===== enf of Jumbotron ===== */

@@ -1,0 +1,122 @@
+/* Payment */
+.payment-container {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 800px;
+  padding: 25px;
+}
+
+.payment-container img {
+  height: 25px;
+  width: 33px;
+  margin-left: 22px;
+}
+
+.payment-box {
+  display: flex;
+  margin: 15px;
+  margin-left: 26px;
+}
+
+.payment-metode span {
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+.header-payment {
+  text-align: center;
+  margin-left: -13px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.payment-metode {
+  width: 30%px;
+  height: 400px;
+  background-color: #002561;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.rincian-booking {
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container-saldo {
+  padding: 15px;
+
+  width: 370px;
+  /* height: 420px; */
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container-jlmsaldo {
+  padding: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 200px;
+  /* height: 400px; */
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form-topup {
+  display: flex;
+}
+
+.right-desc {
+  margin-left: 110px;
+}
+
+.right-desc2 {
+  margin-left: 146px;
+}
+
+.right-desc3 {
+  margin-left: 151px;
+}
+
+.pay-btn {
+  margin-top: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .container-saldo {
+    width: auto;
+  }
+
+  .right-desc {
+    margin-left: 25px;
+  }
+
+  .right-desc2 {
+    margin-left: 61px;
+  }
+
+  .right-desc3 {
+    margin-left: 67px;
+  }
+
+  .pay-btn {
+    margin-top: 24px;
+  }
+
+  .part3-booking p {
+    display: block;
+  }
+}
+
+.footer-wallet {
+  margin-top: 100px !important;
+}
+
+/* end of Payment */

@@ -1,0 +1,137 @@
+/* Login */
+.login.header {
+  height: auto;
+}
+
+.header .hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.tagline {
+  width: auto;
+}
+.form {
+  max-width: 500px;
+}
+.flit-tagline {
+  width: 100%;
+  height: auto;
+}
+.form input:focus {
+  box-shadow: none;
+  border-color: 2663FF;
+}
+.form-input {
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 24px 24px 30px;
+  row-gap: 20px;
+  width: 100%;
+  max-width: 500px !important;
+}
+.form-login {
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 24px 24px 30px;
+  row-gap: 20px;
+  width: 100%;
+  max-width: 500px !important;
+}
+.form-login input {
+  padding: 13px 16px;
+  border-radius: 14px;
+  border: 2px solid #bababa;
+}
+.form-login input:focus {
+  box-shadow: none;
+  border-color: 2663FF;
+}
+
+@media (max-width: 400px) {
+  .form {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .form-login {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 20px;
+    position: center;
+  }
+  .form-label {
+    padding: block 0;
+    width: fit-content;
+  }
+}
+
+#login {
+  width: 100%;
+  height: 700px;
+  background: #ffffff;
+}
+
+.container-login {
+  /* box-sizing: border-box; */
+  position: relative;
+  width: 511px;
+  height: 659px;
+  left: 393px;
+  top: 100px;
+  background: #ffffff;
+}
+
+.ini-label {
+  width: 97.57px;
+  height: 23px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2663ff;
+}
+
+.input-group-text {
+  cursor: pointer;
+}
+
+::placeholder {
+  width: 148px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bababa;
+}
+
+.ini-span p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.ini-button p {
+  margin-top: 5px;
+  margin-left: 59px;
+  width: 48px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.oauth-form {
+  margin-left: 140px;
+}
+
+.oauth button {
+  display: flex;
+  flex-direction: row;
+}
+/* end login  */

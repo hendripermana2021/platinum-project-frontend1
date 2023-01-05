@@ -1,0 +1,116 @@
+/* Testimonial */
+.testimonial-tagline .p-biru {
+  height: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3258e8;
+}
+
+@media screen and (max-width: 576px) {
+  .testimonial-img {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+  }
+  .testimonial {
+    margin-top: -50px;
+  }
+}
+.testimonial-tagline .p-normal {
+  width: 400px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #232631;
+}
+
+.details .testimonial-img {
+  width: 50px;
+  height: 50px;
+  padding-right: 600px;
+}
+
+.details .name {
+  font-weight: 600;
+  font-size: 12px;
+  color: #232631;
+}
+
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #848484;
+}
+
+/* End Of Testimonial */
+
+.content-3-1 .btn:focus,
+.content-3-1 .btn:active {
+  outline: none !important;
+}
+
+.content-3-1 {
+  padding: 2rem 2rem;
+}
+
+.content-3-1 .img-hero {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.content-3-1 .right-column {
+  width: 100%;
+}
+
+.content-3-1 .title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.025em;
+  color: #121212;
+}
+
+.content-3-1 .title-caption {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 1.25rem;
+  color: #121212;
+}
+
+.content-3-1 .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1.25rem;
+  border-radius: 9999px;
+  background-color: #ffbf56;
+}
+
+.content-3-1 .text-caption {
+  font: 400 1rem/1.75rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #565656;
+}
+
+@media (min-width: 768px) {
+  .content-3-1 .title-text {
+    font: 600 2.25rem/2.5rem Poppins, sans-serif;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-3-1 .img-hero {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .content-3-1 .right-column {
+    width: 50%;
+  }
+
+  .content-3-1 .circle {
+    margin-right: 1.25rem;
+    margin-bottom: 0;
+  }
+}

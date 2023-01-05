@@ -1,0 +1,48 @@
+.user {
+  display: flex;
+}
+
+.user .userContainer {
+  flex: 6;
+}
+
+.user .userContainer .content .rounded-circle.profile-pict {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.card-body {
+  height: 500px;
+  width: auto;
+}
+
+.content h2 {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px;
+}
+
+.rounded-circle.profile-pict {
+  margin-top: -1px !important;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+.list-group-horizontal {
+  flex-direction: row;
+  margin: 5px;
+  width: auto;
+}
+
+.data-profile {
+  width: 150px;
+  height: 100%;
+}
+
+.title-profile {
+  width: 100px;
+  height: auto;
+}

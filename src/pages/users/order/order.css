@@ -1,0 +1,248 @@
+/* Pemesanan */
+.pemesanan {
+  width: 100%;
+  margin: 21px;
+}
+
+.part3-booking-hdr {
+  box-sizing: border-box;
+  height: 83px;
+  width: 697px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+}
+
+.prt-hdr {
+  gap: 6px;
+  margin-left: 10px;
+  display: flex;
+  padding: 17px;
+}
+
+.border-booking {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.border-list {
+  border: solid 1px;
+  width: 151px;
+  justify-content: center;
+  height: 31px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.border-booking a {
+  color: black;
+  text-decoration: none;
+}
+
+.border-booking a:hover {
+  background-color: aliceblue;
+}
+
+.bdr-pesanan {
+  box-sizing: border-box;
+ 
+  width: 697px;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+}
+
+.bdr-pesanan:hover {
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+  transform: scale(1.02);
+}
+
+.nomine-bill {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.air-goals {
+  display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .border-booking {
+    display: block;
+    margin-left: 47px;
+    margin-top: 26px;
+  }
+
+  .border-list {
+    margin-bottom: 20px;
+  }
+
+  .header-booking {
+    margin-left: 21px;
+  }
+
+  .bdr-pesanan {
+    margin: 5px;
+    display: block;
+    width: 262px;
+    height: 282px;
+  }
+
+  .part3-booking-hdr {
+    margin-left: 12px;
+    width: 233px;
+    height: 92px;
+  }
+
+  .pemesanan {
+    width: 100%;
+  }
+
+  .payment-box {
+    display: block;
+    width: 755px;
+  }
+
+  .air-goals {
+    margin-top: 5px;
+  }
+
+  .price {
+    margin-left: -22px;
+  }
+
+}
+
+/* Booking */
+.body-booking {
+  height: 1000px;
+}
+
+.container-booking {
+  display: flex;
+  box-sizing: border-box;
+  height: 196px;
+  width: 700px;
+  border-radius: 5px;
+  background-color: #2663ff;
+  margin-top: 64px;
+  margin-left: 22px;
+}
+
+.container-booking-white {
+  display: flex;
+  box-sizing: border-box;
+  height: 121px;
+  width: 697px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+}
+
+.container-booking-white:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+}
+
+.part3-booking {
+  box-sizing: border-box;
+  height: 80px;
+  width: 697px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 22px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0.1, 0.1, 0.1, 0.1);
+}
+
+
+.teks-booking {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+  margin-top: 53px;
+  margin-left: 53px;
+
+}
+
+.title-booking {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+}
+
+.desc-booking {
+  font-family: 'Poppins';
+  color: white;
+
+}
+
+.link-next {
+  color: white;
+  text-decoration: none;
+}
+
+.link-next a:hover {
+  background-color: #002561;
+}
+
+.history {
+  margin-top: 305px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .container-booking {
+    width: 85%;
+    height: 504px;
+    display: block;
+    margin-left: 30px;
+  }
+
+  .teks-booking {
+    padding-top: 19px;
+  }
+
+  .title-booking {
+    margin-left: 50px;
+  }
+
+  .desc-booking {
+    margin-left: 50px;
+  }
+
+  .link-next {
+    display: block;
+    margin-left: 50px;
+  }
+
+  .teks-cont b {
+    display: block;
+    margin-left: 16px;
+  }
+
+  .container-booking-white {
+    display: block;
+    width: 80%;
+    margin-top: 55px;
+    margin-left: 22px;
+    height: 265px;
+  }
+
+  .teks-white {
+    margin-left: -13px;
+    margin-right: 18px;
+  }
+
+
+}
+
+/* end of Booking */
